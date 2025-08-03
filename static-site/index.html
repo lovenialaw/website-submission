@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <!-- meta tags -->
+  <meta charset="utf-8" />
+  <meta name="description" content="This is an awesome website" />
+  <meta name="author" content="Lovenia" />
+  <meta name="keywords" content="HTML, Webdev, FreeCodeCamp" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lovenia's Website</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <!-- heading -->
+    <h1 style="color: red">Lovenia's Website</h1>
+    <h2 class="blue-text">Lovenia's Website</h2>
+    <h3>Lovenia's Website</h3>
+    <h4>Lovenia's Website</h4>
+    <h5>Lovenia's Website</h5>
+    <h6>Lovenia's Website</h6>
+    <br />
+    <hr />
+    <nav></nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="card">
+        <h2>About Me</h2>
+        <p><big>This</big> <big>is</big> <small>my</small> website.</p>
+        <p>H<sub>2</sub>O - Water</p>
+        <p>10<sup>2</sup> - 100</p>
+      </div>
+
+      <div class="card">
+        <h2>My Work</h2>
+        <article>
+          <section>
+            <h3>Web Development</h3>
+            <p>Creating responsive websites with clean code.</p>
+          </section>
+          <section>
+            <h3>UI/UX Design</h3>
+            <p>Designing beautiful user experiences.</p>
+          </section>
+          <section>
+            <aside>
+              <h3>Specialties</h3>
+              <p>Frontend development, responsive design, and modern web technologies.</p>
+            </aside>
+          </section>
+        </article>
+      </div>
+
+      <div class="card">
+        <h2>Links & Resources</h2>
+        <p>Here are some useful links and resources:</p>
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin: 1rem 0;">
+          <a href="https://www.google.com" target="_blank">Google's homepage</a>
+          <a href="./pages/page2.html">Page 2</a>
+          <a href="./pages/page3.html">Page 3</a>
+          <a href="./images/jalurgemilang.jpg">Jalur Gemilang</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Gallery</h2>
+        <div
+          style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin: 1rem 0;">
+          <!-- image -->
+          <img src="https://upload.wikimedia.org/wikipedia/en/4/4d/Shrek_%28character%29.png" alt="Avatar"
+            class="thick-green-border" />
+
+          <!-- clickable image -->
+          <div>
+            <a href="https://www.google.com">
+              <img src="./images/jalurgemilang.jpg" alt="Jalur Gemilang" width="300" height="200" />
+            </a>
+            <p>Click the picture to open Google Chrome</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Media</h2>
+        <div
+          style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 1.5rem; margin: 1rem 0;">
+          <!-- video -->
+          <video src="./video.mp4" controls autoplay loop width="300" height="200" poster="./thumbnail.jpg"></video>
+
+          <!-- youtube video -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/HD13eq_Pmp8" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Lists & Definitions</h2>
+        <div
+          style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 1rem 0;">
+          <div>
+            <h3>Ordered List</h3>
+            <li><a href="#">Cut Apples</a></li>
+            <li>Peel Oranges</li>
+            <li>Smash Bananas</li>
+            <li>Blend Pineapple</li>
+            </ol>
+          </div>
+
+          <div>
+            <h3>Unordered List</h3>
+            <ul>
+              <li><a href="#">Apples</a></li>
+              <li>Oranges</li>
+              <li>Bananas</li>
+              <li>Pineapple</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Definition List</h3>
+            <dl>
+              <dt>Apples</dt>
+              <dd>Is a fruit red or green in color</dd>
+              <dt>Bananas</dt>
+              <dd>Is a fruit yellow in color</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Data Table</h2>
+        <table>
+          <caption>
+            <h2>List of numbers</h2>
+          </caption>
+
+          <thead>
+            <tr>
+              <th colspan="2">one</th>
+              <th>two</th>
+              <th>three</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>four</td>
+              <td>five</td>
+              <td>six</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <h2>Elements Demo</h2>
+        <div style="margin: 1rem 0;">
+          <h3>Inline Elements</h3>
+          <span>span1</span>
+          <span>span2</span>
+        </div>
+
+        <div style="margin: 1rem 0;">
+          <h3>Block Elements</h3>
+          <div>div1</div>
+          <div>div2</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Contact Form</h2>
+        <form id="my_form" action="" method="post">
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+            <div>
+              <label for="user_name">Name:</label>
+              <input type="text" name="user_name" id="user_name" value="John Doe" placeholder="Enter your name" />
+            </div>
+            <div>
+              <label for="user_password">Password:</label>
+              <input type="password" name="user_password" id="user_password" value="johndoe123"
+                placeholder="Enter your password" />
+            </div>
+          </div>
+
+          <div>
+            <label for="user_bio">Bio:</label>
+            <textarea name="user_bio" id="user_bio" placeholder="Tell us about yourself">I'm john</textarea>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+            <div>
+              <label>Date:</label>
+              <input type="date" />
+            </div>
+            <div>
+              <label>File:</label>
+              <input type="file" />
+            </div>
+          </div>
+
+          <div style="margin: 1rem 0;">
+            <h3>Settings:</h3>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <label><input type="checkbox" name="user_settings" id="user_settings_one" /> Option 1</label>
+              <label><input type="checkbox" name="user_settings" id="user_settings_two" /> Option 2</label>
+            </div>
+          </div>
+
+          <div style="margin: 1rem 0;">
+            <h3>Gender:</h3>
+            <div style="display: flex; gap: 1rem;">
+              <label><input type="radio" name="user_gender" id="user_gender_male" /> Male</label>
+              <label><input type="radio" name="user_gender" id="user_gender_female" /> Female</label>
+            </div>
+          </div>
+
+          <input id="submit_button" type="submit" value="Submit Form" />
+        </form>
+      </div>
+
+      <div class="card">
+        <h2>Embedded Content</h2>
+        <iframe src="https://tutors-in-action.org/" frameborder="0" width="700" height="300">Unable to view iframe on
+          this web
+          browser or X-Frame-Options set to
+          sameorigin</iframe>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <h2>Thank youuu</h2>
+      <p>
+        You have reached the end of my website!
+      </p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
